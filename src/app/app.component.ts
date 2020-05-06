@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bmicalculator';
+  title = 'bmi calculator';
+
+  kilogram: number;
+  centimeters: number;
+  result: number;
+
+click(){ 
+  this.result = this.kilogram / Math.pow (this.centimeters/100,2)
+
+  }
 }

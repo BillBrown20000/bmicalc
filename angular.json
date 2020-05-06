@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bmicalculator"
+    }
+  },
+  "defaultProject": "bmicalculator",
+  "cli": {
+    "analytics": "b28802cc-ae1b-4318-9c30-d8dd0c601082"
+  }
 }
